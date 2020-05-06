@@ -133,6 +133,7 @@ helloGetForeignPaths(PlannerInfo *root,
   add_path(baserel, 
            (Path*) create_foreignscan_path(root,
                                            baserel,
+                                           NULL,
                                            baserel->rows,
                                            10, /* startup_cost */
                                            1000, /* total_cost */
