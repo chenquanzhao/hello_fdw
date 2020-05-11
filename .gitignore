@@ -29,3 +29,4 @@
 *.hex
 *.code-workspace
 .vscode
+*.bc

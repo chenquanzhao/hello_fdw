@@ -1,4 +1,5 @@
 # hello_fdw extension
+# install into /usr/share/postgresql/11/extension
 comment = 'foreign-data wrapper for hello world'
 default_version = '1.0'
 module_pathname = '$libdir/hello_fdw'

@@ -8,6 +8,9 @@
  *-------------------------------------------------------------------------
  */
 
+/* hello_fdw.so install into /usr/lib/postgresql/11/lib */
+/* hello_fdw.bc install into /usr/lib/postgresql/11/lib/bitcode */
+
 #include "postgres.h"
 
 #include <sys/stat.h>
